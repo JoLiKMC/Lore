@@ -1,0 +1,159 @@
+-- Tongues Custom Dialect: Oxhorn Brand Swears
+-- Sourced from Oxhorn Brand Machinima (http://www.oxhornbrandmovies.com)
+-- and Blogging With Class (http://www.bloggingwithclass.com/script/script-oxhorns-unabridged-dictionary/)
+-- Compiled by Joseph Collins
+-- ----------
+-- DEFINITIONS
+-- blit: noun (contemptable person; unpleasant stuff; anything)
+-- bloit: verb (gripe; mess up; act careless)
+--        phrasal verb (shirk; impatience; waste time)
+--        interjection (anger)
+--        adjective/adverb (confounded)
+-- chak: verb (act carelessly)
+-- flak: noun (anything; to care)
+--       verb (undesireable position)
+-- grat: interjection (focused anger/disgust)
+--       adjective/adverb (confounded)
+-- wolsh: verb (act carelessly; abuse)
+--        noun (anything)
+-- ----------
+Tongues.Custom.Dialect["Oxhorn Brand (Relaxed)"] = {
+	["substitute"] = {
+		[1] = {
+			-- [BLIT]
+			["bitch"] = "blit",
+			["fucker"] = "blit",
+			["fuckface"] = "blit",
+			["nigger"] = "blit",
+			["niger"] = "blit",
+			["shithead"] = "blit",
+			["smegma"] = "blit",
+			["bitches"] = "blits",
+			["fuckers"] = "blits",
+			["fuckfaces"] = "blits",
+			["niggers"] = "blits",
+			["nigers"] = "blits",
+			["shitheads"] = "blits",
+			["tit"] = "blit",
+			["titty"] = "blit",
+			-- [BLOIT]
+			["fuck"] = "bloit",
+			["fucks"] = "bloits",
+			["bitchin"] = "bloitting",
+			["bitching"] = "bloitting",
+			["fuckin"] = "bloitting",
+			["motherfuckin"] = "bloitting",
+			["motherfucking"] = "bloitting",
+			["nazi"] = "bloiting blit",
+			["nazis"] = "bloiting blits",
+			-- [CHAK]
+			["assraped"] = "chakked",
+			["fucked"] = "chakked",
+			["fucking"] = "chakking",
+			["motherfucker"] = "chakking blit",
+			["motherfuckers"] = "chakking blits",
+			["whore"] = "chakking wolsh",
+			["whores"] = "chakking wolshes",
+			-- [FLAK]
+			["ass"] = "flak",
+			["asshole"] = "flak",
+			["penis"] = "flak",
+			["spic"] = "flakker",
+			["spics"] = "flakkers",
+			["gook"] = "flakking wolsh",
+			["gooks"] = "flakking wolshes",
+			["penises"] = "flaks",
+			["shits"] = "flaks",
+			-- [GRAT]
+			["shit"] = "grat",
+			-- [WOLSH]
+			["anus"] = "wolsh",
+			["cunt"] = "wolsh",
+			["hellhole"] = "wolsh",
+			["pussy"] = "wolsh",
+			["slut"] = "wolsh",
+			["vagina"] = "wolsh",
+			["assholes"] = "wolshes",
+			["ass holes"] = "wolshes",
+			["cunts"] = "wolshes",
+			["pussys"] = "wolshes",
+			["pussies"] = "wolshes",
+			["vaginas"] = "wolshes",
+			["wetback"] = "wolshing blit",
+			["wetbacks"] = "wolshing blits",
+			["kkk"] = "wolshing flak bloiters",
+			};
+		[2] = {
+			["mother blit"] = "blit",
+			["mother blits"] = "blits",
+			["a bloit"] = "a flak",
+			["a grat"] = "a flak",
+			["flak hole"] = "flak",
+			["flying bloit"] = "flying flak",
+			["of grat"] = "of flak",
+			["of flaks"] = "of flak",
+			["that chakking"] = "that gratting",
+			["the chakking"] = "the gratting",
+			["you chakking"] = "you gratting",
+			};
+		};
+	};
+
+Tongues.Custom.Dialect["Oxhorn Brand (Strict)"] = {
+	["substitute"] = {
+		[1] = merge({
+		Tongues.Custom.Dialect["Oxhorn Brand (Relaxed)"]["substitute"][1],
+			{
+			["douchebag"] = "bloiting blit",
+			["douchebags"] = "bloiting blits",
+			--
+			["bastard"] = "blit",
+			["boobs"] = "blits",
+			["dickhead"] = "blit",
+			["douche"] = "blit",
+			["boobies"] = "blits",
+			["tatas"] = "blits",
+			["titties"] = "blits",
+			["bastards"] = "blits",
+			["bitches"] = "blits",
+			["douches"] = "blits",
+			--
+			["rape"] = "chak",
+			["raped"] = "chakked",
+			--
+			["dick"] = "flak",
+			["dicks"] = "flaks",
+			["wang"] = "flak",
+			["wangs"] = "flaks",
+			--
+			["damn"] = "grat",
+			["dammit"] = "grat it",
+			["douchenozzle"] = "gratting wolsh",
+			["douchenozzles"] = "gratting wolshes",
+			--
+			["anuses"] = "wolshes",
+			["asses"] = "wolshes",
+			["hell"] = "wolsh",
+			["hells"] = "wolshes",
+			["hell's"] = "wolshes",
+			};
+		});
+		[2] = merge({
+		Tongues.Custom.Dialect["Oxhorn Brand (Relaxed)"]["substitute"][2],
+			{
+			["blit sword"] = "bastard sword",
+			["blit swords"] = "bastard swords",
+			["blit bag"] = "blit",
+			["blit bags"] = "blits",
+			["wolshes bells"] = "gratting blits",
+			["holy wolsh"] = "holy grat",
+			["holy wolshes"] = "holy gratting",
+			["wolshes bells"] = "gratting blits",
+			["to wolsh"] = "flakking",
+			};
+		});
+		[3] = {
+			["holy gratting bells"] = "holy gratting blits",
+			};
+		};
+	};
