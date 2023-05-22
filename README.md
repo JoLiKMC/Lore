@@ -11,7 +11,7 @@ exotic language like Nerubian, Lore can help you there.
 This version of Lore also supports the use of dialects and you can define how
 well you master a certain language.
 
-Further details and instructions can be found in the AddOn's `ReadMe.txt` file.
+Further details and instructions can be found in the AddOn's [`ReadMe.txt`](https://github.com/JoLiKMC/Lore/blob/main/ReadMe.txt) file.
 
 ## Important Note
 This repository is **purely for archival purposes**.
