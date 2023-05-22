@@ -1,7 +1,7 @@
 # Lore v6.0 (The Scholar Edition)
 Create and use custom-defined languages in *World of Warcraft* (v1.12.1)
 
-**Original Author:** Rook on Earthen Ring US (Alliance)
+**Original Author:** Rook on Earthen Ring US (Alliance)<br>
 **Followup Author:** Liise on Argent Dawn US (Alliance)
 
 ## What is Lore?
